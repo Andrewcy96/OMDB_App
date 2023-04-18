@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.Movies {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  padding-top: 50px;
+  margin: auto;
+}
+
+.movie {
+  height: auto;
+  width: 51%;
+}
+
+.title {
+  color: aliceblue;
+  width: 75%;
+  margin: auto;
+  padding: 20px;
+}
+
+.Search {
+  padding-top: 50px;
+}
+
+.button {
+  width: 50%;
+}
